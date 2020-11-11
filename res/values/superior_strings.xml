@@ -231,4 +231,10 @@
      <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
      <!-- Whether the dots will be drawn when using the lockscreen pattern -->
      <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+
+     <!-- Back gesture height -->
+     <string name="back_height_low_label">Full</string>
+     <string name="back_height_high_label">Bottom</string>
+     <string name="back_height_title">Back gesture height</string>
+     <string name="back_height_summary">Screen height valid for back gesture</string>
 </resources>
