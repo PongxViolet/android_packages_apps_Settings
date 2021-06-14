@@ -85,5 +85,6 @@
           165hz</string>
      <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60
           to %1$d Hz for some content. Increases battery usage.</string>
+     <string name="max_refresh_rate_title">Peak refresh rate</string>
 
 </resources>
