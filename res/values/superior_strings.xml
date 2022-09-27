@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2022-2023 The SuperiorOS Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
+     Copyright (C)2020-2024 The SuperiorOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About phone screen, Superior OS version -->
-    <string name="superior_version">SuperiorOS version</string>
-    <string name="superior_version_default">Unknown</string>
-    <string name="keywords_superior_version">SuperiorOS version, superior version</string>
+     <!-- About phone screen, Superior OS version -->
+     <string name="superior_version">SuperiorOS version</string>
+     <string name="superior_version_default">Unknown</string>
+     <string name="keywords_superior_version">SuperiorOS version, superior version</string>
 
      <!-- About phone screen, build date -->
      <string name="about_device_name">Device</string>
@@ -27,39 +16,41 @@
      <string name="build_date_default">2015-01-01-0000</string>
      <string name="keywords_build_date">build date, build info</string>
 
-    <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+     <!-- Notification log -->
+     <string name="notification_log_summary">Show notifications history log</string>
 
-    <!-- Hardware info -->
-    <string name="soc_model">SoC Model</string>
-    <string name="total_ram">Total RAM</string>
+     <!-- Hardware info -->
+     <string name="soc_model">SoC Model</string>
+     <string name="total_ram">Total RAM</string>
 
-    <!-- General -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+     <!-- General -->
+     <string name="copied_to_clipboard">Copied to clipboard</string>
+     <string name="longpress_to_clipboard">Long-press to copy</string>
 
-    <!-- Package details --> 
-    <string name="package_details_group_title">Package details</string>
-    <string name="package_name">Package name</string>
-    <string name="package_version">Package version</string> 
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+     <!-- Package details -->
+     <string name="package_details_group_title">Package details</string>
+     <string name="package_name">Package name</string>
+     <string name="package_version">Package version</string>
+     <string name="package_version_text">
+          <xliff:g id="version_num">%1$s</xliff:g>
+     </string>
 
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on
-         the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the
-         back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the
+     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+     <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on
+          the front of your phone.</string>
+     <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the
+          back of your phone.</string>
+     <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the
           side of your phone.</string>
 
-    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint
+     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint
     sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of
-         your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of
-         your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of
-         your phone.</string>
+     <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of
+          your phone.</string>
+     <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of
+          your phone.</string>
+     <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of
+          your phone.</string>
 
      <!-- Warning message for the sd card setup -->
      <string name="storage_warning_internal">Warning: This option may not work properly or lead to
@@ -77,4 +68,7 @@
      <!-- Running Services -->
      <string name="background_processes_settings_title">Process in background</string>
 
+     <!-- Black theme -->
+     <string name="system_black_theme_title">Use black theme</string>
+     <string name="system_black_theme_summary">Force black background colors</string>
 </resources>
