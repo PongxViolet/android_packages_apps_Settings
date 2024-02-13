@@ -113,6 +113,7 @@
         <item>@string/partial_screenshot</item>
         <item>@string/action_app_switch</item>
         <item>@string/action_forward</item>
+        <item>@string/action_menu</item>
     </string-array>
 
     <string-array name="swipe_actions_values" translatable="false">
@@ -134,6 +135,7 @@
         <item>15</item>
         <item>16</item>
         <item>17</item>
+        <item>18</item>
     </string-array>
 
     <string-array name="long_back_swipe_timeout_entries">
