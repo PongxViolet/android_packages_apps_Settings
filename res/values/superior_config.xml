@@ -5,7 +5,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-     <!-- Fingerprint -->
+     <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
      <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 
      <!-- Indicates whether device has a side mounted fingerprint sensor,
